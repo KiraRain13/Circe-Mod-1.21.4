@@ -1,4 +1,8 @@
 {
   "item.circemod.moly": "Moly",
-  "item.circemod.moly_root": "Moly Root"
+  "item.circemod.moly_root": "Moly Root",
+
+  "item.circemod.circe_staff": "Circe's Staff",
+
+  "creativetab.circemod.circe_items": "Circe's Items"
 }

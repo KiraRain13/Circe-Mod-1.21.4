@@ -13,6 +13,9 @@ public class ModItems {
         Item::new, new Item.Properties());
     public static final DeferredItem<Item> MOLY_ROOT = ITEMS.registerItem("moly_root",
             Item::new, new Item.Properties());
+    public static final DeferredItem<Item> CIRCE_STAFF = ITEMS.registerItem("circe_staff",
+            Item::new, new Item.Properties().stacksTo(1));
+
 
 
     public static void register(IEventBus eventBus) {

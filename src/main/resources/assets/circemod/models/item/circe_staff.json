@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "circemod:item/circe_staff_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "circemod:item/circe_staff_2d"
+    },
+    "ground": {
+      "parent": "circemod:item/circe_staff_2d"
+    },
+    "fixed": {
+      "parent": "circemod:item/circe_staff_2d"
+    }
+  }
+}
