@@ -54,6 +54,7 @@ public class CirceMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.MOLY);
+            event.accept(ModItems.MOLY_ROOT);
         }
     }
 

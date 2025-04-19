@@ -11,7 +11,8 @@ public class ModItems {
 //Register your custom item
     public static final DeferredItem<Item> MOLY = ITEMS.registerItem("moly",
         Item::new, new Item.Properties());
-    
+    public static final DeferredItem<Item> MOLY_ROOT = ITEMS.registerItem("moly_root",
+            Item::new, new Item.Properties());
 
 
     public static void register(IEventBus eventBus) {
