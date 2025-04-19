@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "circemod:item/circe_staff_3d"
+    "model": "circemod:item/circe_staff_2d"
   }
 }
